@@ -1,156 +1,185 @@
 {
-  "meals": [
+  "hotels": [
     {
-      "id": "m1",
-      "name": "Sushi",
-      "description": "Finest fish and veggies",
-      "price": 22.99
+      "id": 0,
+      "name": "Comfort City",
+      "image": "../assets/img1.jpg",
+      "description": "Some description of the hotel",
+      "avgstars": 4,
+      "comments": [
+        {
+          "id": 0,
+          "user": "test user",
+          "starts": 4,
+          "comment": "Nice hotel"
+        },
+        {
+          "id": 1,
+          "user": "test user 2",
+          "starts": 4,
+          "comment": "Nice hotel"
+        }
+      ]
     },
     {
-      "id": "m2",
-      "name": "Schnitzel",
-      "description": "A german specialty!",
-      "price": 16.5
+      "id": 1,
+      "name": "Uptown Suites",
+      "image": "assets/img2.jpg",
+      "description": "Some description of the hotel",
+      "avgstars": 5,
+      "comments": [
+        {
+          "id": 0,
+          "user": "test user",
+          "starts": 4,
+          "comment": "Nice hotel"
+        },
+        {
+          "id": 1,
+          "user": "test user 2",
+          "starts": 4,
+          "comment": "Nice hotel"
+        },
+        {
+          "id": 2,
+          "user": "test user 3",
+          "starts": 5,
+          "comment": "Nice hotel"
+        }
+      ]
     },
     {
-      "id": "m3",
-      "name": "Barbecue Burger",
-      "description": "American, raw, meaty",
-      "price": 12.99
-    },
-    {
-      "id": "m4",
-      "name": "Green Bowl",
-      "description": "Healthy...and green...",
-      "price": 18.99
+      "id": 2,
+      "name": "Urban Center",
+      "image": "assets/img3.jpg",
+      "description": "Some description of the hotel",
+      "avgstars": 3,
+      "comments": []
     }
   ],
-  "orders": [
+  "comments": [
     {
-      "id": 1
+      "hotelID": 0,
+      "id": 0,
+      "user": "test user",
+      "starts": 4,
+      "comment": "Nice hotel"
     },
     {
-      "id": 2
+      "hotelID": 0,
+      "id": 1,
+      "user": "test user 2",
+      "starts": 4,
+      "comment": "Nice hotel"
     },
     {
-      "test1": "this is a test",
-      "test2": "this is test 2",
+      "hotelID": 1,
+      "id": 2,
+      "user": "test user 2",
+      "starts": 4,
+      "comment": "Nice hotel"
+    },
+    {
+      "hotelID": 1,
+      "user": "test@email.com",
+      "starts": 3,
+      "comment": "this is a nice hotel with a very good ocean view",
       "id": 3
     },
     {
-      "user": {
-        "name": "Ivan Monge",
-        "street": "760 O'Neil",
-        "city": "Casa Grande",
-        "postal": "85122"
-      },
-      "orderedItems": [
-        {
-          "id": "m1",
-          "name": "Sushi",
-          "amount": 1,
-          "price": 22.99
-        },
-        {
-          "id": "m3",
-          "name": "Barbecue Burger",
-          "amount": 3,
-          "price": 12.99
-        }
-      ],
+      "hotelID": 1,
+      "user": "test@email.com",
+      "starts": 5,
+      "comment": "Im testing the comments",
       "id": 4
     },
     {
-      "user": {
-        "name": "Test 2",
-        "street": "test2",
-        "city": "test2",
-        "postal": "85122"
-      },
-      "orderedItems": [
-        {
-          "id": "m1",
-          "name": "Sushi",
-          "amount": 1,
-          "price": 22.99
-        },
-        {
-          "id": "m3",
-          "name": "Barbecue Burger",
-          "amount": 3,
-          "price": 12.99
-        }
-      ],
+      "hotelID": 1,
+      "user": "test@email.com",
+      "starts": 3,
+      "comment": "one more test",
       "id": 5
     },
     {
-      "user": {
-        "name": "test3",
-        "street": "test3",
-        "city": "test3",
-        "postal": "85122"
-      },
-      "orderedItems": [
-        {
-          "id": "m1",
-          "name": "Sushi",
-          "amount": 1,
-          "price": 22.99
-        },
-        {
-          "id": "m3",
-          "name": "Barbecue Burger",
-          "amount": 3,
-          "price": 12.99
-        }
-      ],
+      "hotelID": 2,
+      "user": "test@email.com",
+      "starts": 3,
+      "comment": "just a normal hotel",
       "id": 6
     },
     {
-      "user": {
-        "name": "test4",
-        "street": "test4",
-        "city": "test4",
-        "postal": "34566"
-      },
-      "orderedItems": [
-        {
-          "id": "m1",
-          "name": "Sushi",
-          "amount": 1,
-          "price": 22.99
-        },
-        {
-          "id": "m3",
-          "name": "Barbecue Burger",
-          "amount": 4,
-          "price": 12.99
-        }
-      ],
+      "hotelID": 0,
+      "user": "test@email.com",
+      "starts": 4,
+      "comment": "this is a very nice hotel",
       "id": 7
     },
     {
-      "user": {
-        "name": "test6",
-        "street": "test6",
-        "city": "test6",
-        "postal": "test6"
-      },
-      "orderedItems": [
-        {
-          "id": "m1",
-          "name": "Sushi",
-          "amount": 1,
-          "price": 22.99
-        },
-        {
-          "id": "m3",
-          "name": "Barbecue Burger",
-          "amount": 3,
-          "price": 12.99
-        }
-      ],
+      "hotelID": 0,
+      "user": "test@email.com",
+      "starts": 5,
+      "comment": "the best hotel ive ever staid",
       "id": 8
+    },
+    {
+      "hotelID": 0,
+      "user": "test@email.com",
+      "starts": 5,
+      "comment": "im testing the comments scroll bar",
+      "id": 9
+    },
+    {
+      "hotelID": 0,
+      "user": "test@email.com",
+      "starts": 5,
+      "comment": "one more comment for testing",
+      "id": 10
+    },
+    {
+      "hotelID": 2,
+      "user": "test@email.com",
+      "starts": 5,
+      "comment": "its a very clean hotel",
+      "id": 11
+    },
+    {
+      "hotelID": 0,
+      "user": "test@email.com",
+      "starts": 5,
+      "comment": "very nice hotel",
+      "id": 12
+    }
+  ],
+  "users": [
+    {
+      "email": "test@email.com",
+      "password": "$2a$10$7kmM2NAqLWNMVt3wEMFG1eGsPanVfLlCEpNFl/IWNUHHyXk9WTVwe",
+      "id": 1
+    },
+    {
+      "email": "test2@email.com",
+      "password": "$2a$10$xMYgh169CuijxQL8VrwSH.wQp1vXb7JGl6hqzccajgfKM25n3JOpe",
+      "id": 2
+    },
+    {
+      "email": "test5@email.com",
+      "password": "$2a$10$gvTgtXipc/qdKHWtCc7dwuc7zGhpoU5PcUW1Voh/xHubw4eRjdMIy",
+      "id": 3
+    },
+    {
+      "email": "test3@email.com",
+      "password": "$2a$10$WVkhog/1KuKA1RYk5RPqNu413RT2hpY9/gVwNVlreK1OoCY9IODZe",
+      "id": 4
+    },
+    {
+      "email": "test4@email.com",
+      "password": "$2a$10$mdy6ZHlgOApbHnSscuJLIe2wf4/8PWcoVLSySd.9B4.0F1wH2Qt.m",
+      "id": 5
+    },
+    {
+      "email": "test6@email.com",
+      "password": "$2a$10$9qemNnlZOZpE5z0hJOGxc.tFZA7SjWrENV.qP6ZmnPiZnbkuU5/k.",
+      "id": 6
     }
   ]
 }
